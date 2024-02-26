@@ -24,26 +24,26 @@ hr { display: none; }
     font-style: normal;
 }
 /* 전체영역 , 웹폰트 */
-body { width: 720px; margin: 0 auto; 
-       background: #b8dbf8; 
-       font-family: 'SUIT-Regular';
-    }
+body { font-family: 'SUIT-Regular';  }
 /* 헤더 */
-#header { position: relative; height: 275px; background: url(../images/bg.png) no-repeat;  }
-#header hgroup { position: absolute; right: 30px; bottom: 25px; color: #fff; }
-#header hgroup h1 { font-family: 'SokchoBadaDotum'; font-size: 40px; 
+#header { position: relative; height: 600px; 
+        background: url(../images/bg.jpg) no-repeat center / cover;  
+        text-align: center;  }
+#header hgroup { padding-top: 200px; color: #fff; }
+#header hgroup h1 { font-family: 'SokchoBadaDotum'; font-size: 70px; 
                     text-shadow: 1px 2px 1px #000; }
-#header hgroup p { margin-top: 25px; font-size: 20px; 
+#header hgroup p { margin-top: 25px; font-size: 30px; 
                    text-shadow: 0 2px 1px #000; }
 /* GNB */
+#gnb { position: absolute; top: 570px; left: calc(50% - 500px); width: 1000px; }
 #gnb ul { display: flex; }
 #gnb ul li { width: 25%; }
 #gnb ul li a { display: block; width: 100%;
                background: #036; color: #fff; 
                text-align: center; line-height: 60px; }
-#gnb ul li a:hover { background: #fff; color: #000; font-weight: bold; }
+#gnb ul li a:hover { background: #cce3fd; color: #000; font-weight: bold; }
 /* 본문 */
-main { padding: 25px 12px 0; background: #fff; }
+main { width: 1000px; margin: 0 auto; padding: 50px 12px 0; box-sizing: border-box; background: #cce3fd;}
 #content article h3 { margin: 25px 0 15px; }
 #content article figure { padding: 0 0 13px 40px; }
 /* footer */
